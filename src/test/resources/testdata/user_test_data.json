@@ -1,0 +1,77 @@
+{
+  "validUserData": [
+    {
+      "firstName": "tester",
+      "lastName": "automation",
+      "dateOfBirth": "05/05/1996",
+      "dateOfBirthDetailFormat": "09/05/1996",
+      "gender": "Male",
+      "joinDate": "01/07/2022",
+      "joinDateDetailFormat": "07/01/2022",
+      "type": "ADMIN"
+    },
+    {
+      "firstName": "tester",
+      "lastName": "manual",
+      "dateOfBirth": "22/02/2000",
+      "dateOfBirthDetailFormat": "02/22/2000",
+      "gender": "Female",
+      "joinDate": "22/02/2022",
+      "joinDateDetailFormat": "02/22/1996",
+      "type": "STAFF"
+    }
+  ],
+  "invalidUserData": [
+    {
+      "firstName": "quan2",
+      "lastName": "nguyen",
+      "dateOfBirth": "22/02/2000",
+      "dateOfBirthDetailFormat": "02/22/2000",
+      "gender": "Female",
+      "joinDate": "22/2/2010",
+      "type": "STAFF"
+    },
+    {
+      "firstName": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "lastName": "nguyen",
+      "dateOfBirth": "02/02/2000",
+      "gender": "Male",
+      "joinDate": "22/2/2021",
+      "type": "ADMIN"
+    }
+  ],
+  "changePassUserData": {
+    "firstName": "Goku",
+    "lastName": "Son",
+    "dateOfBirth": "17/05/1989",
+    "gender": "Male",
+    "joinDate": "22/2/2021",
+    "type": "ADMIN",
+    "password": "@17051989",
+    "newPassword": "123456"
+  },
+  "Admin": {
+    "username": "admin",
+    "oldPassword": "123456",
+    "newPassword": "123456"
+  },
+  "Staff": {
+    "username": "admin",
+    "oldPassword": "123456",
+    "newPassword": "123456"
+  },
+  "AdminByLocation": [
+    {
+      "username": "admin",
+      "password": "123456"
+    },
+    {
+      "username": "admin",
+      "password": "123456"
+    },
+    {
+      "username": "admin",
+      "password": "123456"
+    }
+  ]
+}

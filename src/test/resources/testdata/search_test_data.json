@@ -1,0 +1,26 @@
+{
+  "sortByHeader": {
+    "staff": "Staff Code",
+    "name": "Full Name",
+    "joinedDate": "Joined Date",
+    "type": "Type"
+  },
+  "sortType": {
+    "type1": "ascending",
+    "type2": "descending"
+  },
+  "filter": {
+    "staff": "Staff",
+    "admin": "Admin"
+  },
+  "searchData": {
+    "staffCode": "SD0005",
+    "searchType1": "Staff Code",
+    "firstName": "viet",
+    "searchType2": "Full Name"
+  },
+  "assignedUser": {
+    "firstName1": "Nhu",
+    "firstName2": "viet"
+  }
+}
